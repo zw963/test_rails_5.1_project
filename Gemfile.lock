@@ -66,6 +66,17 @@ GEM
     ffi (1.9.18)
     globalid (0.4.0)
       activesupport (>= 4.2.0)
+    hike (1.2.3)
+    hyper-react (0.12.7)
+      hyper-store (>= 0.2.1)
+      hyperloop-config (>= 0.9.7)
+      opal (>= 0.8.0)
+      opal-activesupport (>= 0.2.0)
+    hyper-store (0.2.3)
+      hyperloop-config (>= 0.9.2)
+    hyperloop-config (0.9.10)
+      opal
+      opal-browser
     i18n (0.8.4)
     jbuilder (2.7.0)
       activesupport (>= 4.2.0)
@@ -88,6 +99,17 @@ GEM
     nio4r (2.1.0)
     nokogiri (1.8.0)
       mini_portile2 (~> 2.2.0)
+    opal (0.10.4)
+      hike (~> 1.2)
+      sourcemap (~> 0.1.0)
+      sprockets (~> 3.1)
+      tilt (>= 1.4)
+    opal-activesupport (0.3.0)
+      opal (>= 0.5.0, < 1.0.0)
+    opal-browser (0.2.0)
+      opal
+      paggio
+    paggio (0.2.6)
     public_suffix (2.0.5)
     puma (3.9.1)
     rack (2.0.3)
@@ -132,6 +154,7 @@ GEM
     selenium-webdriver (3.4.3)
       childprocess (~> 0.5)
       rubyzip (~> 1.0)
+    sourcemap (0.1.1)
     spring (2.0.2)
       activesupport (>= 4.2)
     spring-watcher-listen (2.0.1)
@@ -173,6 +196,7 @@ DEPENDENCIES
   byebug
   capybara (~> 2.13)
   coffee-rails (~> 4.2)
+  hyper-react
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
   puma (~> 3.7)
