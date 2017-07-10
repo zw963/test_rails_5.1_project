@@ -54,6 +54,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'opal-rails'
+gem 'jquery-rails'
 gem 'opal-browser'
 gem 'react-rails', '~> 1.9'
 gem 'hyper-react'
